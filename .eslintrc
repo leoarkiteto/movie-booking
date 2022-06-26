@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "wesbos/typescript"
+  ],
+  "rules": {
+    "no-useless-constructor": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "printWidth": 80,
+        "semi": true,
+        "bracketSpacing": true,
+        "bracketSameLine": false,
+        "arrowParens": "avoid",
+        "proseWrap": "always",
+        "htmlWhitespaceSensitivity": "css",
+        "endOfLine": "lf"
+      }
+    ]
+  }
+}
